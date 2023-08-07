@@ -1,3 +1,50 @@
-.chart {
-    height: 600px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#graph {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.dot {
+    cursor: pointer;
+}
+
+.tooltip, #input-form {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+}
+
+#input-form {
+    width: 200px; /* Set the width of the input form */
+}
+
+#input-form input {
+    display: block;
+    width: 96%;
+    margin: 5px 0;
+}
+
+#input-form button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.axis-label {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+.dot-label {
+    font-size: 14px; /* Set the font size to 14px */
 }
